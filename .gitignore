@@ -57,15 +57,11 @@ frontend/.cache/
 # TypeScript
 *.tsbuildinfo
 
-# Tailwind CSS
-tailwind.config.js
-postcss.config.js
+# # Tailwind CSS
+# tailwind.config.js
+# postcss.config.js
 
-# Webpack config files
-webpack.config.js
-webpack.config.*.js
-
-# Backend specific files
+# Webpack config files# Backend specific files
 backend/node_modules/
 backend/build/
 backend/dist/

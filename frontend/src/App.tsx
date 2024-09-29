@@ -1,14 +1,25 @@
-// src/App.tsx
-
+import { Button, ConfigProvider, Space } from 'antd';
 import React from 'react';
 
+const App: React.FC = () => (
+  <ConfigProvider
+    theme={{
+      token: {
+        // Seed Token
+        colorPrimary: '#00b96b',
+        borderRadius: 2,
 
-const App = () => {
-  return (
-    <div className="flex items-center justify-center min-h-screen bg-green-500">
-      <h1 className="text-3xl text-red-700 font-bold">Hello, Tailwind CSS!</h1>
-    </div>
-  );
-};
+        // Alias Token
+        colorBgContainer: '#f6ffed',
+      },
+    }}
+  >
+    <Space>
+      <Button type="primary" className=' animate-none p-4 font-bold bg-blue-400'>Primary</Button>
+      <Button>Default</Button>
+      <button className='bg-slate-100 px-1 py-1 rounded-sm text-black font-small ' >Custome Button</button>
+    </Space>
+  </ConfigProvider>
+);
 
 export default App;

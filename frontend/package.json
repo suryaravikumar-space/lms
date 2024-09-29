@@ -12,6 +12,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "antd": "^5.21.1",
+    "daisyui": "^4.12.10",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -22,11 +24,13 @@
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.0",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
     "mini-css-extract-plugin": "^2.9.1",
     "postcss": "^8.4.47",
     "postcss-loader": "^8.1.1",
     "style-loader": "^4.0.0",
-    "tailwindcss": "^3.4.12",
+    "tailwindcss": "^3.4.13",
     "ts-loader": "^9.5.1",
     "typescript": "^5.6.2",
     "webpack": "^5.94.0",
